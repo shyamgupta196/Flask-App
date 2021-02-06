@@ -60,7 +60,7 @@ def error(arg):
 # ADDING BG
 if __name__ == '__main__':
     values = []
-    file = open('model-data/iris.pkl', 'rb')
+    file = open('iris.pkl', 'rb')
     model = joblib.load(file)
     app.run(debug=True)
 
